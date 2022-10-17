@@ -48,7 +48,7 @@ UnboundLocalError: local variable 'f1' referenced before assignment
 
 ## Run on the interactive mode
 
-Run the Docker container `mitohifi-test` built above on the interactive mode to debug interactively.
+Run the Docker container `mitohifi-test` built above on the interactive mode to debug the [specific commands](https://github.com/marcelauliano/MitoHiFi/blob/852cd1d27c92534c90993d387354f5fb868b0f0e/mitohifi.py#L86-L91) interactively.
 
 ```
 $ docker run --rm -it mitohifi-test bash
